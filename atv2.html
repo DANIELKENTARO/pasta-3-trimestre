@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body{
+                background-color: rgb(102, 184, 199);
+            }
+            button{
+                height:20em;
+                width: 20em;
+                border: 10px double black;
+                color: rgba(255, 255, 255, 0.596);
+                background-color: rgba(0, 0, 0, 0.253);
+                -webkit-border-radius:200px;
+                   -moz-border-radius:200px;
+                        border-radius:200px;
+                  }
+        </style>
+    </head>
+    <body align="center">
+        <br><br><br><br><br><br><br><br><br>
+        <button onclick="inicio()"><h1>clique em mim</h1></button>
+        <script>
+            function inicio(){
+                let nome=window.prompt('insira seu nome:')
+                window.alert(`ola, ${nome}! É um prazer`)
+            }
+        </script>
+    </body>
+</html>
