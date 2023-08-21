@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste</title>
+    <title>atividade4</title>
 </head>
 <body align="center">
     <hr><hr><br><br><hr><hr>
     <style>
         body{
-            margin-block: 111px;
             background-color: rgb(127, 197, 255);
             margin: auto;
         }
@@ -30,18 +29,24 @@
             <br><hr><hr><br><br><hr><hr><br>
             <button onclick="clicou()">clique em mim</button>
             <script>
-                function clicou(){
                 window.alert("Bom dia -----______________________------")
+                function clicou(){
                 var n1=window.prompt("insira seu nome")
-                var n2=window.prompt("  insira seu telefone")
-                var n3=n1+n2;
+                var n2=window.prompt("insira seu telefone")
+                var n3=n1+"ㅤ"+n2;
                 window.alert(n3)
                 }
+                </script>
+                <button onclick="clicou2()">clique em mim</button>
+                <script>
+                    function clicou2(){
+                    window.alert("O JS permite que pessoas usuárias interajam com uma página e isso pode incluir diversos exemplos, como mostrar e esconder informações ao clicar em um botão ou alguma parte do site montar carrosséis de imagens com transições zoom em imagens timers ou contagem regressiva animações atualizar elementos sem a necessidade de atualizar a página.", "<br> Criar página na web e apps", "<br> Construir web servers e desenvolver aplicações", "<br> etc.")
+                    }
                 </script> 
                 <hr><hr>
-            <button onclick="clicou2()">clique em mim</button>
+            <button onclick="clicou3()">clique em mim</button>
             <script>
-                function clicou2(){
+                function clicou3(){
                 var a=Number.parseInt(window.prompt("insira o valor 1"))
                 var b=Number.parseInt(window.prompt("insira o valor 2"))
                 var c=Number.parseInt(window.prompt("insira o valor 3"))
@@ -52,13 +57,21 @@
                 }
                 </script>
                 <hr><hr>
-                <button onclick="clicou3()">clique em mim</button>
+                <button onclick="clicou4()">clique em mim</button>
                 <script>
-                    function clicou3(){
+                    function clicou4(){
                     var n1=Number.parseInt(window.prompt("insira o valor da base do triangulo"))
                     var n2=Number.parseInt(window.prompt("insira o valor da altura do triangulo"))
                     var n3=(n1*n2)/2;
                     window.alert(n3);
+                    }
+                </script>
+                <button onclick="clicou5()">clique em mim</button>
+                <script>
+                    function clicou5(){
+                    const a1=Number.parseInt(window.prompt("insira o valor para elevar ao cubo:"))
+                    var b1=[a1*a1*a1];
+                    window.alert(b1);
                     }
                 </script>
                 <hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr><br><br><hr><hr>           
