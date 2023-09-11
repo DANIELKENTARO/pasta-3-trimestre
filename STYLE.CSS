@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(127, 197, 255);
+    margin: 10%;
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.795);
+}
+button{
+    border-width: 6px;
+    border-radius: 1000px;
+    background-color: azure;
+    font-size: 2em;
+    color: rgb(86, 175, 175);
+}
+hr{
+    border-color: black;
+    border-style: double;
+    border-width: 4px;
+}

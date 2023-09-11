@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 7.1</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <script>
+            function a(){
+            var nome=window.prompt(nome);
+            var total=nome.length;
+            window.alert("esse nome contém"+" "+total+" "+"caracteres");
+            //conta também os espaços
+            }
+            function b(){
+            var nome=window.prompt(nome);
+            window.alert("esse nome contém"+" "+nome.length+" caracteres");
+            }
+            function c(){
+            var nome=window.prompt("Digite teu nome");
+            window.alert("esse nome em maiúsculo é "+nome.toLocaleUpperCase());
+            }
+            function d(){
+            var nome=window.prompt("Digite teu nome");
+            window.alert("esse nome em minusculo é "+nome.toLocaleLowerCase());
+            }
+            //eliminar arquivos
+            var f=document.getElementById('msg')
+            window.document.getElementById('msg').innerText='Olá tudo bem?'
+        </script>
+    </script>
+</head>
+<body align="center">
+    <hr>
+    <button onclick="a()">exemplo 1</button>
+    <hr><br><p>(os dois exemplos são iguais)<br><hr>
+    <button onclick="b()">exemplo 2</button>
+    <hr><br><br><hr>
+    <button onclick="c()">exemplo 3</button>
+    <hr><br>(os exemplos 3 e 4 são parecidos)<br><hr>
+    <button onclick="d()">exemplo 4</button>
+    <br><hr>
+    <div id="msg">clique em mim</div>
+    
+    <script>
+        var e=window.document.getElementById('msg');
+           window.document.write(e.innerText+"<br>");
+           //d.innerText
+           e.style.background='green';
+           e.style.color="white"
+           e.innerText='Estou aguardando';
+
+   </script>
+    <hr>
+</body>
+</html>
