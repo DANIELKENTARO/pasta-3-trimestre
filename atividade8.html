@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 8</title>
+    <style>
+        body{
+            margin: 10% auto;
+            background-color:rgb(40, 133, 255);
+            color:white
+        }
+        button{
+            margin: 10%;
+            border-radius: 99px;
+            border: 1px groove rgb(75, 14, 14);
+            font-size: 110%;
+        }
+        footer{
+            font: 120% white;
+        }
+    </style>
+</head>
+<body><center>
+    <div name="mensagem">Bom dia!</div><hr>
+    <button onclick="botao()">botão</button><hr>
+    <script>
+        var p1=window.document.getElementsByName
+        ('mensagem') [0]
+        window.document.write('<footer>'+p1.innerText+'</footer>');
+        p1.style.background='red';
+        function botao(){
+            alert('ola tudo bem?')
+        }
+    </script>
+    </center>
+</body>
+</html>
