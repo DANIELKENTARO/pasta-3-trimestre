@@ -31,29 +31,25 @@
             border-radius: 100px;
         }
         div{
-            padding-top: 4%;
-            padding: 4% 0% 0% 0%;
+            padding: 20% 0% 0% 0%;
         }
     </style>
 </head>
 <body>
-    <div id="area" onclick="clique()">
-    interaja1
-    </div><br>
-    <div id="area2" onclick="clique2()">
-        interaja2
-        </div>
+    <div id="area" onclick="clique()" onmouseout="Default()">
+    interaja
+    </div>
     <script>
         function clique(){
             var a=window.document.getElementById('area');
             a.innerText="clicou";
             a.style.background='red';
         }
-        function clique2(){
-            var a=window.document.getElementById('area2');
-            a.innerText="clicou2";
+        function Default(){
+            var a=window.document.getElementById('area');
+            a.innerText="interaja";
             a.style.background='blue';
         }
-</script>
+        </script>
 </body>
 </html>
