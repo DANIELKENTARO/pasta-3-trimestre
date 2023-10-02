@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 10</title>
+    <style>
+        body{
+            margin: 20% 45%;
+            text-align: center;
+            font-size: 125%;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .area{
+            color: rgba(0, 0, 0, 0.726);
+            width: 200px;
+            height: 100px;
+            background-color: rgb(208, 255, 0);
+            cursor:grab;
+            border: 2px groove black;
+            border-radius: 1000px;
+        }
+        div{
+            padding: 30% 0% 0% 0%;
+        }
+    </style>
+</head>
+<body>
+    <div class="area" onclick="clique()" onmouseenter="enter()" onmouseout="sair()">
+        interaja
+        </div>
+    <script>
+        var a=window.document.getElementsByClassName("area")[0];
+        function clique(){
+    a.innerText="clicou";
+    a.style.background='blue';
+}
+function enter(){
+    a.innerText='entrando'
+    a.style.background='green'
+}
+function sair(){
+    a.innerText='saiu'
+    a.style.background='red'
+}
+        </script>
+</body>
+</html>
