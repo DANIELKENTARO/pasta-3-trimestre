@@ -7,29 +7,53 @@
     <title>atividade 10</title>
     <style>
         body{
-            margin-top: 20%;
+            margin: 20% 45%;
             text-align: center;
-            font-size: 180%;
+            font-size: 125%;
+            font-family: 'Courier New', Courier, monospace;
         }
         #area{
-            width: 100px;
-            height: 50px;
+            color: #ffffff;
+            width: 150px;
+            height: 70px;
             background-color: blue;
             cursor:grab;
+            border: 2px groove black;
+            border-radius: 100px;
+        }
+        #area2{
+            color: rgb(255, 255, 255);
+            width: 150px;
+            height: 70px;
+            background-color: rgb(255, 0, 0);
+            cursor:grab;
+            border: 2px groove black;
+            border-radius: 100px;
+        }
+        div{
+            padding-top: 4%;
+            padding: 4% 0% 0% 0%;
         }
     </style>
 </head>
-<body><center>
+<body>
     <div id="area" onclick="clique()">
-    interaja
-    </div>
+    interaja1
+    </div><br>
+    <div id="area2" onclick="clique2()">
+        interaja2
+        </div>
     <script>
         function clique(){
             var a=window.document.getElementById('area');
             a.innerText="clicou";
             a.style.background='red';
         }
-    </script>
-    </center>
+        function clique2(){
+            var a=window.document.getElementById('area2');
+            a.innerText="clicou2";
+            a.style.background='blue';
+        }
+</script>
 </body>
 </html>
