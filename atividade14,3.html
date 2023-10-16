@@ -8,16 +8,16 @@
 </head>
 <body>
     <script>
-        var tinta=window.prompt('insira a cor azul ou amarela');
+        var tinta=Number.parseInt(window.prompt('insira um número de 1 a 3'));
         switch(tinta){
-            case 'amarela': case 'amarelo':case 'AMARELO': case 'AMARELA': case 'Amarelo': case 'Amarela':
+            case 1:
                 document.write('Irei pintar o carro de amarelo');
                 break;
-                case 'azul': case 'AZUL': case 'Azul':case 'aZUL':
+                case 2:
                     document.write('Irei pintar o carro de azul');
                     break;
-                    case 'amarelo':
-                        document.write('Irei pintar o carro de amarelo');
+                    case 3:
+                        document.write('Irei pintar o carro de verde');
                         break;
                             default:
                                 document.write('Não irei pintar');
